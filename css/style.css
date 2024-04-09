@@ -124,3 +124,31 @@ h2 {
 .footer {
   padding-bottom: 5%;
 }
+
+@media only screen and (min-width:600px) {
+  
+  body#favorites{
+    background-color: purple;
+  }
+  
+  #favorites nav#main-nav {
+  background-color: yellow;
+  margin: 10px 10px;
+  }
+  
+  
+}
+
+@media only screen and (min-width:960px) {
+  
+  body#favorites{
+    background-color: blue;
+  }
+  
+  #favorites nav#main-nav {
+  background-color: blue;
+  margin: 10px 10px;
+  }
+  
+  
+}
