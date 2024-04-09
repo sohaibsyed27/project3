@@ -1,0 +1,126 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #59a674;
+  margin: 0 auto;
+}
+
+nav#main-nav {
+  background-color: black;
+  margin: 10px 10px;
+}
+
+nav#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#navbar-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+
+nav#main-nav ul li {
+  float: left;
+}
+
+nav#main-nav ul li a {
+  display:block;
+  padding: 20px;
+  font-size:20px;
+  color: #59a674;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav#main-nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  text-align:center;
+  font-family: "Josefin Sans", sans-serif;
+}
+#aboutmebody p,  #favorites p {
+  font-family:Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+p {
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+
+div#resume {
+  background-color:white;
+  margin: 0 auto;
+  width:960px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  padding:20px;
+}
+.resume {
+  margin: 0 auto;
+  position: relative;
+  padding: 10px 10px;
+  border-top-style: dotted;
+}
+
+#resume h2 {
+  text-align:center;
+}
+
+.portion {
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:2%;
+  overflow:hidden;
+  padding:10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,10);
+}
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+section#aboutme {
+  width: 50%;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+section#aboutme img {
+  width: 100%;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+section#aboutme iframe {
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align:center;
+}
+
+.footer {
+  padding-bottom: 5%;
+}
