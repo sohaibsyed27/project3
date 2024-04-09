@@ -137,17 +137,40 @@ h2 {
   }
   
   #favorites nav#main-nav {
-  background-color: yellow;
-  margin: 10px 10px;
+    background-color: yellow;
+    margin: 10px 10px;
   }
   
   img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 10px 0px 0px 55px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px 0px 0px 55px;
   }
   
+}
+@media only screen and (min-width:960px) {
   
+  body#favorites{
+    background-color: blue;
+    color:white;
+  }
+  
+  body#favorites .portion {
+    background-color: black;
+  }
+  
+  #favorites nav#main-nav {
+    background-color: white;
+    margin: 10px 10px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px 0px 0px 200px;
+  }
 }
