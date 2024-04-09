@@ -129,6 +129,11 @@ h2 {
   
   body#favorites{
     background-color: purple;
+    color:blue;
+  }
+  
+  body#favorites .portion {
+    background-color: gray;
   }
   
   #favorites nav#main-nav {
@@ -136,18 +141,12 @@ h2 {
   margin: 10px 10px;
   }
   
-  
-}
-
-@media only screen and (min-width:960px) {
-  
-  body#favorites{
-    background-color: blue;
-  }
-  
-  #favorites nav#main-nav {
-  background-color: blue;
-  margin: 10px 10px;
+  img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 10px 0px 0px 55px;
   }
   
   
